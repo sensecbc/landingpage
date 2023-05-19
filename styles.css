@@ -1,105 +1,91 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 body {
-    font-family: 'Roboto', sans-serif;
-} 
-
-
-.primeiro {
-    background-color: #1F2937;
+  font-family: "Roboto", sans-serif;
 }
 
-.listanav {
-    list-style-type: none;
+.header {
+  background-color: #1f2937;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-#headerlogo {
-    font-size: 24px;
-    color: #F9FAF8;
-    padding: 5px;
-}
-
-.nav {
-    display: flex;
-    flex-direction: row;
-}
-
-ul {
-    display:flex;
-    flex-direction: row;
-}
-
-.esquerda, .direta {
-    display: flex;
-    width: 50%;
-    justify-content: center;
+.menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 40px;
 }
 
 .links {
+  padding: 10px 15px;
     font-size: 18px;
-    color: #e5e7eb;
-    margin: 10px;
+  color: #e5e7eb;
+  margin: 10px;
+  cursor: pointer;
 }
 
-.conteudo {
-    display: flex;
-    flex-direction: row;
+.links:last-child {
+  margin-right: 0;
+  padding-right: 0;
 }
 
-.conteudodir {
-    display: flex;
-    width: 50%;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+.logo {
+  color: white;
 }
 
-.conteudoesq {
-    display: flex;
-    width: 50%;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+.hero {
+ background-color: #1f2937;
+  display: flex;
+  justify-content: center;
+}
+
+.hero-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 50px 0px;
 }
 
 .phead {
-    font-size: 48px;
-    font-weight: bolder;
-    color: #F9FAF8;
-    margin-left: 9%;
+  font-size: 48px;
+  font-weight: bolder;
+  color: #f9faf8;
 }
 
-.montanha {
-    margin-top: 50px;
-    margin-bottom: 50px;
+.description {
+  color: white;
+  margin-top: 20px;
 }
 
 .signup {
-	background-color:#4584c7;
-	border-radius:40px;
-	border:1px solid #ffffff;
-	display:inline-block;
-	cursor:pointer;
-	color:#ffffff;
-	font-family:Arial;
-	font-size:24px;
-	padding:10px 31px;
-	text-decoration:none;
-	text-shadow:0px 1px 0px #ffffff;
+  background-color: #4584c7;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: "Roboto", sans-serif;
+  font-size: 24px;
+  padding: 8px 25px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #ffffff;
+  margin-top: 20px;
 }
 .signup:hover {
-	background-color:#000000;
+  background-color: #000000;
 }
 .signup:active {
-	position:relative;
-	top:1px;
+  position: relative;
+  top: 1px;
 }
 
 .contained {
-    max-width: 1920px;
+  max-width: 1200px;
+  width: 100%;
 }
