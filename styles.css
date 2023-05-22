@@ -25,7 +25,7 @@ body {
 
 .links {
   padding: 10px 15px;
-    font-size: 18px;
+  font-size: 18px;
   color: #e5e7eb;
   margin: 10px;
   cursor: pointer;
@@ -41,7 +41,7 @@ body {
 }
 
 .hero {
- background-color: #1f2937;
+  background-color: #1f2937;
   display: flex;
   justify-content: center;
 }
@@ -88,4 +88,37 @@ body {
 .contained {
   max-width: 1200px;
   width: 100%;
+}
+
+.h2class {
+  display:flex;
+  justify-content: center;
+  font-size: 25px;
+  font-weight: 900;
+  color: #1f2937;
+  margin-top: 4%;
+}
+
+.secondpart {
+  display: flex;
+  flex-direction: column;
+}
+
+.secondpartimg {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 40px;
+}
+
+.imgbro {
+  margin-top: 50px;
+  border: 4px solid #3882F6;
+  border-radius: 20px;
+}
+
+figcaption {
+  text-align: center;
+  font-weight: bold;
+  color: grey;
 }
