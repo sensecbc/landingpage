@@ -102,6 +102,7 @@ body {
 .secondpart {
   display: flex;
   flex-direction: column;
+
 }
 
 .secondpartimg {
@@ -119,6 +120,28 @@ body {
 
 figcaption {
   text-align: center;
+  color: black;
+}
+
+.thirdpart {
+  display: flex;
+  flex-direction: column;
+  background-color: #E5E7EB;
+  margin-top: 5%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  align-items: center;
+}
+
+.inspiring {
+  text-align: left;
+  font-size: 40px;
+  font-weight: 100;
+  font-style: italic;
+}
+
+.thor {
+  text-align: right;
   font-weight: bold;
-  color: grey;
+  font-size: 25px;
 }
